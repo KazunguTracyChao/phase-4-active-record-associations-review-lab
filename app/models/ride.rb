@@ -1,2 +1,5 @@
 class Ride < ApplicationRecord
-end
+    belongs_to :passenger
+    belongs_to :taxi
+  end
+  
